@@ -1,8 +1,9 @@
 # gdrive-clear  
 
 Empty the trash bin of Google Drive.  
+Useful for scheduled maintenance to avoid storage full.  
 
-Requires Selenium, Chrome webdriver.  
+Requires Python 3+, Selenium, Chrome webdriver.  
 
-Set GDRIVE_USER to your Google account email.  
-Set GDRIVE_PSWD to your password.
+Set environment variable **GDRIVE_USER** to your Google account email.  
+Set environment variable **GDRIVE_PSWD** to your password.
